@@ -1,0 +1,74 @@
+section
+    .swiper.js-swiper.top_section  
+        .swiper-wrapper
+            .swiper-slide.top_section__slide
+                img.top_section__background(src="./images/top_bg1.jpg" alt="")
+                .top_section__content
+                    .top_section__wrapper
+                        .top_section__inner
+                            h2.top_section__title Полет Илона Маска и DOGIE COIN
+                            span.top_section__subtitle В прошлый четверг все офигели от полета DOGIE COIN на марс.
+                            a.top_section__link.button_str.js-form-call(href="javascript:void(0)") ОСТАВИТЬ ЗАЯВКУ
+                                 
+            .swiper-slide.top_section__slide
+                img.top_section__background(src="./images/top_bg2.jpg" alt="")
+                .top_section__content
+                    .top_section__wrapper
+                        .top_section__inner
+                            h2.top_section__title DOGIE COIN УПАЛ
+                            span.top_section__subtitle Все в шоке, я потерял все деньги
+                            a.top_section__link.button_str.js-form-call(href="javascript:void(0)") ОСТАВИТЬ ЗАЯВКУ
+            .swiper-slide.top_section__slide
+                img.top_section__background(src="./images/top_bg3.jpg" alt="")
+                .top_section__content
+                    .top_section__wrapper
+                        .top_section__inner
+                            h2.top_section__title Эпическое возвращения хаи
+                            span.top_section__subtitle Все в шоке, я снова богат
+                            a.top_section__link.button_str.js-form-call(href="javascript:void(0)") ОСТАВИТЬ ЗАЯВКУ
+        .top_section__links 
+               .top_section__links-wrap 
+                    .top_section__links-items
+                        a.top_section__links-item.js-swiper-anchor(href="javascript:void(0)") DOgie coin
+                        a.top_section__links-item.js-swiper-anchor(href="javascript:void(0)") ПАДЕНИЕ
+                        a.top_section__links-item.js-swiper-anchor(href="javascript:void(0)") ВОЗВРАЩЕНИЕ
+    .cards
+        .cards_wrapper
+            h2.cards__title Карточки
+            .cards__items.js-card_items
+            .cards__more
+                a.cards__more-wrap.button_str.js-more_link(href="javascript:void(0)") ЗАГРУЗИТЬ ЕЩЕ
+
+.modal_layout.js-modal-form
+    .modal_wrap
+        .modal_image
+            img(src="./images/moon1.jpg" alt="")
+        .modal_form
+            .modal_form__title 
+                h2 Оставьте заявку
+                .modal_form__close.--button_parallelogram.js-form-close
+                    img(src="./images/close_icon.png" alt="")
+            span.modal_form__subtitle Оставьте заявку и наш менеджер свяжется с вами в течение 10 -15 минут
+
+            form.modal_form__form.js-modal_form
+                .modal_form__input_wrapper.modal_form__input--label.js_form-input
+                    label(for="modal_forn__input1") Ваше имя*
+                    input#modal_forn__input1.js-validation(type="text")
+                .modal_form__input_wrapper.modal_form__input--label.js_form-input
+                    label(for="modal_forn__input2") E-mail*
+                    input#modal_forn__input2.js-validation( type="text")
+                .modal_form__input_wrapper
+                    input#modal_forn__input3.js-validation(placeholder="+7(___)")
+                .modal_form__input_wrapper.modal_form__input--label
+                    label(for="textarea1") Ваш вопрос*
+                    textarea#textarea1(name="textarea1") 
+                .modal_form__bottom
+                    button.modal_form__submit(type="submit") ОСТАВИТЬ ЗАЯВКУ
+                    span.modal_form__notation Нажимая на кнопку “Оставить заявку” вы соглашаетесь
+                        br
+                        | с #[a(href="javascript:void(0)") “Пользовательским соглашением”]
+                
+
+
+
+        
